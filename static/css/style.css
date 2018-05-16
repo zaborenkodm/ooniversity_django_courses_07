@@ -12,3 +12,58 @@ body {
     padding-top: 50px;
     padding-bottom: 30px;
 }
+
+.student_list-table, .student-table, .student-performance__tb {
+    border-collapse: collapse;
+}
+
+.student_list__th {
+    background: rgba(196, 159, 101, 0.84);
+    padding: 10px 20px;
+}
+
+.student_list__td, .student-item__td {
+    background: #f6da8c;
+    padding: 10px 20px;
+}
+
+.student_list__td, .student_list__th, .student-item__td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+
+.student-course {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.student_list-item:hover td {
+    background: #dab668;
+}
+
+.person-smile {
+    width: 200px;
+    display: block;
+    padding: 30px 0;
+}
+
+.student-card__caption {
+    padding-top: 30px;
+    font-size: 22px;
+}
+
+.performance-th {
+    background: #007bff;
+    padding: 10px 20px;
+    color: white;
+}
+
+.performance-td {
+    background: #d6e5f0;
+    padding: 10px 20px;
+}
+
+.student-performance {
+    padding-bottom: 80px;
+}
